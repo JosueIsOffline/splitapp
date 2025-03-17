@@ -1,8 +1,8 @@
 {
-  "db_name": "_d412b4bcc4b37a00",
-  "db_password": "pS090LqHItmCnam3",
-  "db_type": "mariadb",
-  "db_user": "_d412b4bcc4b37a00",
-  "developer_mode": 1
+ "allow_tests": true,
+ "db_name": "_d412b4bcc4b37a00",
+ "db_password": "pS090LqHItmCnam3",
+ "db_type": "mariadb",
+ "db_user": "_d412b4bcc4b37a00",
+ "developer_mode": 1
 }
-

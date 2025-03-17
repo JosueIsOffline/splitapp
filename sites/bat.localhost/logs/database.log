@@ -2784,3 +2784,23 @@ alter table `tabExpense Split` add column if not exists parenttype varchar(140)
 alter table `tabExpense Split` add column if not exists parentfield varchar(140)
 2025-03-17 17:12:14,956 WARNING database DDL Query made to DB:
 ALTER TABLE `tabExpense Split` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-03-17 17:32:44,482 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense` ADD COLUMN `split_method` varchar(140)
+2025-03-17 17:32:44,527 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-03-17 17:38:00,294 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-03-17 17:40:08,845 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-03-17 18:03:43,881 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-03-17 18:09:28,943 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-03-17 18:15:46,501 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-03-17 18:16:00,353 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-03-17 18:20:03,403 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-03-17 18:34:39,797 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0

@@ -33,3 +33,24 @@
 2025-03-17 16:42:56,871 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench worker
 2025-03-17 16:42:56,872 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench watch
 2025-03-17 16:45:37,633 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench browse bat.localhost --user Administrator
+2025-03-17 17:58:39,914 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-test --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 17:59:36,201 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:00:09,833 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost set-config allow_tests true
+2025-03-17 18:00:11,811 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:02:11,905 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:02:33,852 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:05:39,792 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:06:59,997 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:09:44,090 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:10:29,548 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:10:41,520 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:12:01,621 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:14:06,245 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:16:31,489 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:20:11,952 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:22:34,289 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:23:08,241 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:23:31,554 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:30:12,802 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:32:06,574 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation
+2025-03-17 18:35:12,968 INFO /Users/josueisoffline/Library/Python/3.9/bin/bench --site bat.localhost run-tests --module batsplit.batsplit.doctype.expense.test_expense --test test_equal_split_calculation

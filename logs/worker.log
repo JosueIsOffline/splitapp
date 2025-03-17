@@ -42,3 +42,33 @@
 2025-03-17 17:15:57,643 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:short
 2025-03-17 17:15:57,648 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:default
 2025-03-17 17:15:57,650 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:long
+2025-03-17 17:29:27,777 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:short
+2025-03-17 17:29:27,780 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:default
+2025-03-17 17:29:27,781 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:long
+2025-03-17 17:42:57,840 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:short
+2025-03-17 17:42:57,843 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:default
+2025-03-17 17:42:57,844 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:long
+2025-03-17 17:56:27,934 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:short
+2025-03-17 17:56:27,937 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:default
+2025-03-17 17:56:27,938 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:long
+2025-03-17 18:09:58,062 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:short
+2025-03-17 18:09:58,066 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:default
+2025-03-17 18:09:58,067 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:long
+2025-03-17 18:23:28,225 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:short
+2025-03-17 18:23:28,228 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:default
+2025-03-17 18:23:28,229 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:long
+2025-03-17 18:34:00,242 Users-josueisoffline-Documents-GitHub-splitapp:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Expense', 'name': 'n87h1sla8v'}, method='frappe.model.delete_doc.delete_dynamic_links', site='bat.localhost', user='Administrator') (bat.localhost||476c877e-8c16-4f0d-8876-4819da42bd11)
+2025-03-17 18:34:00,281 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Expense', 'name': 'n87h1sla8v'}, method='frappe.model.delete_doc.delete_dynamic_links', site='bat.localhost', user='Administrator') job in 0:00:00.027788s on worker ea91b3a69eea40528d63c2532279b1d8
+2025-03-17 18:34:00,282 Users-josueisoffline-Documents-GitHub-splitapp:default: Job OK (bat.localhost||476c877e-8c16-4f0d-8876-4819da42bd11)
+2025-03-17 18:34:00,282 Result is kept for 600 seconds
+2025-03-17 18:34:00,285 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:short
+2025-03-17 18:34:00,286 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:default
+2025-03-17 18:34:00,287 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:long
+2025-03-17 18:34:00,289 Users-josueisoffline-Documents-GitHub-splitapp:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Expense', 'name': 'm4k25rcncv'}, method='frappe.model.delete_doc.delete_dynamic_links', site='bat.localhost', user='Administrator') (bat.localhost||5b366618-1b1a-4502-b2c9-c60e9bbb267f)
+2025-03-17 18:34:00,319 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Expense', 'name': 'm4k25rcncv'}, method='frappe.model.delete_doc.delete_dynamic_links', site='bat.localhost', user='Administrator') job in 0:00:00.021979s on worker ea91b3a69eea40528d63c2532279b1d8
+2025-03-17 18:34:00,320 Users-josueisoffline-Documents-GitHub-splitapp:default: Job OK (bat.localhost||5b366618-1b1a-4502-b2c9-c60e9bbb267f)
+2025-03-17 18:34:00,320 Result is kept for 600 seconds
+2025-03-17 18:34:00,322 Users-josueisoffline-Documents-GitHub-splitapp:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Expense', 'name': 'i779fuvqqc'}, method='frappe.model.delete_doc.delete_dynamic_links', site='bat.localhost', user='Administrator') (bat.localhost||6f30f42f-ff0a-44a5-80f4-1a8f3bf13b4e)
+2025-03-17 18:34:00,345 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Expense', 'name': 'i779fuvqqc'}, method='frappe.model.delete_doc.delete_dynamic_links', site='bat.localhost', user='Administrator') job in 0:00:00.017173s on worker ea91b3a69eea40528d63c2532279b1d8
+2025-03-17 18:34:00,345 Users-josueisoffline-Documents-GitHub-splitapp:default: Job OK (bat.localhost||6f30f42f-ff0a-44a5-80f4-1a8f3bf13b4e)
+2025-03-17 18:34:00,345 Result is kept for 600 seconds
