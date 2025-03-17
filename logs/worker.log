@@ -1,0 +1,44 @@
+2025-03-17 16:41:03,798 Worker rq:worker:d038f5876a5e480caff7808af8143ab6 started with PID 12427, version 2.1.0
+2025-03-17 16:41:03,798 Subscribing to channel rq:pubsub:d038f5876a5e480caff7808af8143ab6
+2025-03-17 16:41:03,799 *** Listening on Users-josueisoffline-Documents-GitHub-splitapp:short, Users-josueisoffline-Documents-GitHub-splitapp:default, Users-josueisoffline-Documents-GitHub-splitapp:long...
+2025-03-17 16:41:03,799 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:short
+2025-03-17 16:41:03,799 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:default
+2025-03-17 16:41:03,800 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:long
+2025-03-17 16:42:55,074 Worker d038f5876a5e480caff7808af8143ab6 [PID 12427]: warm shut down requested
+2025-03-17 16:42:55,079 Unsubscribing from channel rq:pubsub:d038f5876a5e480caff7808af8143ab6
+2025-03-17 16:42:57,115 Worker rq:worker:ea91b3a69eea40528d63c2532279b1d8 started with PID 12885, version 2.1.0
+2025-03-17 16:42:57,115 Subscribing to channel rq:pubsub:ea91b3a69eea40528d63c2532279b1d8
+2025-03-17 16:42:57,115 *** Listening on Users-josueisoffline-Documents-GitHub-splitapp:short, Users-josueisoffline-Documents-GitHub-splitapp:default, Users-josueisoffline-Documents-GitHub-splitapp:long...
+2025-03-17 16:42:57,115 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:short
+2025-03-17 16:42:57,116 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:default
+2025-03-17 16:42:57,116 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:long
+2025-03-17 16:46:09,277 Users-josueisoffline-Documents-GitHub-splitapp:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User josuehernandez2314@gmail.com>, 'ignore_mandato..., method='frappe.core.doctype.user.user.create_contact', site='bat.localhost', user='Administrator') (bat.localhost||4a839afd-424e-4c6c-b8c6-83d239accb53)
+2025-03-17 16:46:09,718 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User josuehernandez2314@gmail.com>, 'ignore_mandato..., method='frappe.core.doctype.user.user.create_contact', site='bat.localhost', user='Administrator') job in 0:00:00.325630s on worker ea91b3a69eea40528d63c2532279b1d8
+2025-03-17 16:46:09,718 Users-josueisoffline-Documents-GitHub-splitapp:default: Job OK (bat.localhost||4a839afd-424e-4c6c-b8c6-83d239accb53)
+2025-03-17 16:46:09,718 Result is kept for 600 seconds
+2025-03-17 16:46:09,723 Users-josueisoffline-Documents-GitHub-splitapp:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'josuehernandez2314@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='bat.localhost', user='Administrator') (bat.localhost||7f026066-ac92-4b4f-a27c-21d20d2672ae)
+2025-03-17 16:46:09,924 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'josuehernandez2314@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='bat.localhost', user='Administrator') job in 0:00:00.194937s on worker ea91b3a69eea40528d63c2532279b1d8
+2025-03-17 16:46:09,924 Users-josueisoffline-Documents-GitHub-splitapp:default: Job OK (bat.localhost||7f026066-ac92-4b4f-a27c-21d20d2672ae)
+2025-03-17 16:46:09,924 Result is kept for 600 seconds
+2025-03-17 16:59:40,028 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:short
+2025-03-17 16:59:40,031 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:default
+2025-03-17 16:59:40,032 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:long
+2025-03-17 17:07:47,062 Users-josueisoffline-Documents-GitHub-splitapp:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User friend1@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='bat.localhost', user='Administrator') (bat.localhost||e2dfefa4-a8a1-430f-b1b1-d7af05b3098b)
+2025-03-17 17:07:47,507 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User friend1@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='bat.localhost', user='Administrator') job in 0:00:00.318039s on worker ea91b3a69eea40528d63c2532279b1d8
+2025-03-17 17:07:47,507 Users-josueisoffline-Documents-GitHub-splitapp:default: Job OK (bat.localhost||e2dfefa4-a8a1-430f-b1b1-d7af05b3098b)
+2025-03-17 17:07:47,507 Result is kept for 600 seconds
+2025-03-17 17:07:47,510 Users-josueisoffline-Documents-GitHub-splitapp:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'friend1@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='bat.localhost', user='Administrator') (bat.localhost||9016a0ea-fd64-483a-bde6-6656ae6ce41b)
+2025-03-17 17:07:47,706 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'friend1@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='bat.localhost', user='Administrator') job in 0:00:00.189066s on worker ea91b3a69eea40528d63c2532279b1d8
+2025-03-17 17:07:47,706 Users-josueisoffline-Documents-GitHub-splitapp:default: Job OK (bat.localhost||9016a0ea-fd64-483a-bde6-6656ae6ce41b)
+2025-03-17 17:07:47,706 Result is kept for 600 seconds
+2025-03-17 17:09:11,871 Users-josueisoffline-Documents-GitHub-splitapp:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User friend2@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='bat.localhost', user='Administrator') (bat.localhost||025cf18b-19db-453e-b457-cc0b0f76b109)
+2025-03-17 17:09:12,340 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User friend2@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='bat.localhost', user='Administrator') job in 0:00:00.340367s on worker ea91b3a69eea40528d63c2532279b1d8
+2025-03-17 17:09:12,340 Users-josueisoffline-Documents-GitHub-splitapp:default: Job OK (bat.localhost||025cf18b-19db-453e-b457-cc0b0f76b109)
+2025-03-17 17:09:12,340 Result is kept for 600 seconds
+2025-03-17 17:09:12,343 Users-josueisoffline-Documents-GitHub-splitapp:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'friend2@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='bat.localhost', user='Administrator') (bat.localhost||b53c175e-8fa5-48f7-b0fc-fa4eca793a31)
+2025-03-17 17:09:12,536 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'friend2@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='bat.localhost', user='Administrator') job in 0:00:00.187659s on worker ea91b3a69eea40528d63c2532279b1d8
+2025-03-17 17:09:12,537 Users-josueisoffline-Documents-GitHub-splitapp:default: Job OK (bat.localhost||b53c175e-8fa5-48f7-b0fc-fa4eca793a31)
+2025-03-17 17:09:12,537 Result is kept for 600 seconds
+2025-03-17 17:15:57,643 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:short
+2025-03-17 17:15:57,648 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:default
+2025-03-17 17:15:57,650 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:long

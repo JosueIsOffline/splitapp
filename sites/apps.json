@@ -1,0 +1,21 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "16.0.0-dev"
+    },
+    "batsplit": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "612bd0d080d7fe1dc23f96ebc8d21b8e0a1b2253",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    }
+}
