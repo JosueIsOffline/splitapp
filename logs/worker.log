@@ -72,3 +72,184 @@
 2025-03-17 18:34:00,345 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Expense', 'name': 'i779fuvqqc'}, method='frappe.model.delete_doc.delete_dynamic_links', site='bat.localhost', user='Administrator') job in 0:00:00.017173s on worker ea91b3a69eea40528d63c2532279b1d8
 2025-03-17 18:34:00,345 Users-josueisoffline-Documents-GitHub-splitapp:default: Job OK (bat.localhost||6f30f42f-ff0a-44a5-80f4-1a8f3bf13b4e)
 2025-03-17 18:34:00,345 Result is kept for 600 seconds
+2025-03-17 18:47:30,494 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:short
+2025-03-17 18:47:30,496 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:default
+2025-03-17 18:47:30,497 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:long
+2025-03-17 18:59:35,507 Worker ea91b3a69eea40528d63c2532279b1d8 [PID 12885]: warm shut down requested
+2025-03-17 18:59:35,519 Unsubscribing from channel rq:pubsub:ea91b3a69eea40528d63c2532279b1d8
+Traceback (most recent call last):
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+        lambda: self._connect(), lambda error: self.disconnect(error)
+    )
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ~~~~~~~~~~~~~^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/apps/frappe/frappe/utils/bench_helper.py", line 48, in invoke
+    return super().invoke(ctx)
+           ~~~~~~~~~~~~~~^^^^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+    ~~~~~~~~~~~~^
+    	queue,
+     ^^^^^^
+    ...<4 lines>...
+    	strategy=strategy,
+     ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/apps/frappe/frappe/utils/background_jobs.py", line 336, in start_worker
+    worker.work(
+    ~~~~~~~~~~~^
+    	logging_level=logging_level,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    	with_scheduler=False,
+     ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/rq/worker.py", line 645, in work
+    self.teardown()
+    ~~~~~~~~~~~~~^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/rq/worker.py", line 1152, in teardown
+    self.unsubscribe()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/rq/worker.py", line 1059, in unsubscribe
+    self.pubsub.unsubscribe()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/client.py", line 982, in unsubscribe
+    return self.execute_command("UNSUBSCRIBE", *args)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/client.py", line 786, in execute_command
+    self.connection = self.connection_pool.get_connection(
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        "pubsub", self.shard_hint
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:11003. Connection refused.
+
+Error 61 connecting to 127.0.0.1:11003. Connection refused.
+2025-03-17 18:59:37,937 Worker rq:worker:b530f24b0b994d78be6f9b3f96ff1f86 started with PID 45095, version 2.1.0
+2025-03-17 18:59:37,937 Subscribing to channel rq:pubsub:b530f24b0b994d78be6f9b3f96ff1f86
+2025-03-17 18:59:37,937 *** Listening on Users-josueisoffline-Documents-GitHub-splitapp:short, Users-josueisoffline-Documents-GitHub-splitapp:default, Users-josueisoffline-Documents-GitHub-splitapp:long...
+2025-03-17 18:59:37,937 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:short
+2025-03-17 18:59:37,938 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:default
+2025-03-17 18:59:37,938 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:long
+2025-03-17 19:03:56,346 Worker b530f24b0b994d78be6f9b3f96ff1f86 [PID 45095]: warm shut down requested
+2025-03-17 19:03:56,359 Unsubscribing from channel rq:pubsub:b530f24b0b994d78be6f9b3f96ff1f86
+Traceback (most recent call last):
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+        lambda: self._connect(), lambda error: self.disconnect(error)
+    )
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ~~~~~~~~~~~~~^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/apps/frappe/frappe/utils/bench_helper.py", line 48, in invoke
+    return super().invoke(ctx)
+           ~~~~~~~~~~~~~~^^^^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+    ~~~~~~~~~~~~^
+    	queue,
+     ^^^^^^
+    ...<4 lines>...
+    	strategy=strategy,
+     ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/apps/frappe/frappe/utils/background_jobs.py", line 336, in start_worker
+    worker.work(
+    ~~~~~~~~~~~^
+    	logging_level=logging_level,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    	with_scheduler=False,
+     ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/rq/worker.py", line 645, in work
+    self.teardown()
+    ~~~~~~~~~~~~~^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/rq/worker.py", line 1152, in teardown
+    self.unsubscribe()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/rq/worker.py", line 1059, in unsubscribe
+    self.pubsub.unsubscribe()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/client.py", line 982, in unsubscribe
+    return self.execute_command("UNSUBSCRIBE", *args)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/client.py", line 786, in execute_command
+    self.connection = self.connection_pool.get_connection(
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        "pubsub", self.shard_hint
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/josueisoffline/Documents/GitHub/splitapp/env/lib/python3.13/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:11003. Connection refused.
+
+Error 61 connecting to 127.0.0.1:11003. Connection refused.
+2025-03-17 19:04:21,391 Worker rq:worker:d9b0e1a0a0e54591a48ef17ce7481887 started with PID 46969, version 2.1.0
+2025-03-17 19:04:21,391 Subscribing to channel rq:pubsub:d9b0e1a0a0e54591a48ef17ce7481887
+2025-03-17 19:04:21,392 *** Listening on Users-josueisoffline-Documents-GitHub-splitapp:short, Users-josueisoffline-Documents-GitHub-splitapp:default, Users-josueisoffline-Documents-GitHub-splitapp:long...
+2025-03-17 19:04:21,392 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:short
+2025-03-17 19:04:21,392 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:default
+2025-03-17 19:04:21,393 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:long
+2025-03-17 19:17:51,484 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:short
+2025-03-17 19:17:51,488 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:default
+2025-03-17 19:17:51,489 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:long
+2025-03-17 19:31:21,615 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:short
+2025-03-17 19:31:21,619 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:default
+2025-03-17 19:31:21,620 Cleaning registries for queue: Users-josueisoffline-Documents-GitHub-splitapp:long
